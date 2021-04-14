@@ -46,10 +46,11 @@ footer {background-color: #ddfaf8;}
   color: black;
   padding: 15px 32px;
   text-align: center;
+  margin: 0 auto;      
   text-decoration: none;
   display: inline-block;
   font:'Gilda Display'
-  font-size: 12px;
+  font-size: 16px;
 }
 .button2 {
     background-color: #ddfaf8; /* Joyful Blue */
@@ -58,11 +59,22 @@ footer {background-color: #ddfaf8;}
   color: black;
   padding: 15px 32px;
   text-align: center;
+  margin: 0 auto;      
   text-decoration: none;
   display: inline-block;
   font:'Gilda Display'
-  font-size: 12px;
+  font-size: 16px;
 }
+        
+.flex-parent {
+        display: flex;
+   }
+   .jc-center {
+           justify-content:center;
+        }
+        button1.margin-right {
+                margin-right:20px
+        }
         
 </style>
 <body>
@@ -85,9 +97,11 @@ footer {background-color: #ddfaf8;}
 <i> " My name is ‘Ella’, and I’m passionate about arranging relaxing, safe, and discreet dates. To ensure ‘Joyful’ is prepared to anticipate this community's needs, I’ve created two short surveys: One for companions, and a second for clients. I’d appreciate your feedback!"  </i> - Ella </p>
 
 <!-- Link Buttons to Surveys --> 
-        
-<a href="https://joyful-nyc.typeform.com/to/Me9yHWE0" class="button1"> Companions </a>
-<a href="https://joyful-nyc.typeform.com/to/aLC1JCRM" class="button2">  Clients </a>  
+
+<div-class="flex-parent jc-center">        
+        <a href="https://joyful-nyc.typeform.com/to/Me9yHWE0" class="button1"> Companions </a>
+        <a href="https://joyful-nyc.typeform.com/to/aLC1JCRM" class="button2">  Clients </a> 
+        </div>        
                                                              
 <!-- Photo Grid -->
 
